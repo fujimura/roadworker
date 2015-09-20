@@ -36,6 +36,7 @@ Or install it yourself as:
 ```sh
 export AWS_ACCESS_KEY_ID='...'
 export AWS_SECRET_ACCESS_KEY='...'
+export AWS_REGION='...'
 roadwork -e -o Routefile
 vi Routefile
 roadwork -a --dry-run
